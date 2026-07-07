@@ -1,0 +1,16 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-shell-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: First
+        run: echo "This is github actions"
+
+      - name: Second
+        run: echo "second step"
