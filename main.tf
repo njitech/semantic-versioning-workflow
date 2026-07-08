@@ -19,3 +19,11 @@ resource "aws_vpc" "test-vpc" {
     Env = "prod"
   }
 }
+
+terraform {
+  backend "s3" {
+    bucket = "s3-bucket-backend2026"
+    key = "github-action/terraform.tfstate"
+    region = "us-east-1"
+  }
+}
