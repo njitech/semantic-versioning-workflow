@@ -1,0 +1,11 @@
+{
+  "name": "github-actions-release",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "latest",
+    "@semantic-release/github": "latest",
+    "@semantic-release/release-notes-generator": "latest",
+    "semantic-release": "latest"
+  }
+}
